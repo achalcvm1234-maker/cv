@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Achal Raval - Resume</title>
+
+  <!-- Local Bootstrap 5 CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .profile-img {
+      width: 120px;
+      height: 140px;
+      object-fit: cover;
+      border: 2px solid #dee2e6;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+    .profile-img:hover {
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body class="bg-light py-5">
+
+  <div class="container" style="max-width: 800px;">
+    <div class="card shadow-sm border-0 p-4 p-md-5 bg-white">
+      
+      <!-- Header / Profile Section with Modal Trigger on Image -->
+      <div class="row align-items-center mb-4 pb-4 border-bottom">
+        <div class="col-md-3 text-center mb-3 mb-md-0">
+          <!-- Clickable Profile Photo opening Modal -->
+          <img src="img/achal.png" alt="Achal Vijaykumar Raval" class="rounded shadow-sm profile-img" data-bs-toggle="modal" data-bs-target="#profileModal" title="Click to view details">
+        </div>
+        <div class="col-md-9 text-center text-md-start">
+          <h2 class="fw-bold text-dark mb-1">Achal Vijaykumar Raval</h2>
+          <p class="text-muted mb-1">Dumral Bazar Raval Vas, Nadiad</p>
+          <p class="text-secondary small mb-0">+91 9624727702 | acalraval2@gmail.com</p>
+        </div>
+      </div>
+
+      <!-- Objective Section -->
+      <div class="mb-4">
+        <h5 class="fw-bold text-success border-bottom pb-2">Objective</h5>
+        <p class="text-secondary small mb-0">Utilize my technical skills in web development for organizational success.</p>
+      </div>
+
+      <!-- Education Section -->
+      <div class="mb-4">
+        <h5 class="fw-bold text-success border-bottom pb-2">Education</h5>
+        
+        <div class="mb-3">
+          <div class="d-flex justify-content-between fw-bold small">
+            <span>Institute Of Science & Technology For Advanced Studies & Research (ISTAR), CVM University</span>
+            <span>December 2022 – 2026</span>
+          </div>
+          <p class="text-muted small mb-0">Pursuing MCA — 9.06 CGPA</p>
+        </div>
+
+        <div class="mb-3">
+          <div class="d-flex justify-content-between fw-bold small">
+            <span>Sardar Patel College Of Administration And Management, SP University</span>
+            <span>March 2022</span>
+          </div>
+          <p class="text-muted small mb-0">Completed BCA — 7.46 CGPA</p>
+        </div>
+
+        <div class="mb-3">
+          <div class="d-flex justify-content-between fw-bold small">
+            <span>Shree Santram Madhyamik Vidhyalaya</span>
+            <span>March 2020</span>
+          </div>
+          <p class="text-muted small mb-0">Standard 12th — 68.08%</p>
+        </div>
+
+        <div>
+          <div class="d-flex justify-content-between fw-bold small">
+            <span>Shree Santram Madhyamik Vidhyalaya</span>
+            <span>-</span>
+          </div>
+          <p class="text-muted small mb-0">Standard 10th — 74.06%</p>
+        </div>
+      </div>
+
+      <!-- Skills Section with Progress Bars -->
+      <div class="mb-4">
+        <h5 class="fw-bold text-success border-bottom pb-2">Skills</h5>
+        
+        <div class="mb-2 small">
+          <div class="d-flex justify-content-between mb-1">
+            <span class="fw-semibold">HTML, CSS, JavaScript (Intermediate)</span>
+            <span>85%</span>
+          </div>
+          <div class="progress" style="height: 6px;">
+            <div class="progress-bar bg-success" style="width: 85%;"></div>
+          </div>
+        </div>
+
+        <div class="mb-2 small">
+          <div class="d-flex justify-content-between mb-1">
+            <span class="fw-semibold">Java, React, PHP (Basic)</span>
+            <span>65%</span>
+          </div>
+          <div class="progress" style="height: 6px;">
+            <div class="progress-bar bg-success" style="width: 65%;"></div>
+          </div>
+        </div>
+
+        <div class="mb-2 small">
+          <div class="d-flex justify-content-between mb-1">
+            <span class="fw-semibold">MySQL, MongoDB, PostgreSQL (Basic)</span>
+            <span>70%</span>
+          </div>
+          <div class="progress" style="height: 6px;">
+            <div class="progress-bar bg-success" style="width: 70%;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projects Section -->
+      <div class="mb-4">
+        <h5 class="fw-bold text-success border-bottom pb-2">Projects</h5>
+        <div class="mb-2">
+          <div class="d-flex justify-content-between fw-bold small">
+            <span>Cafe Management System (Online food ordering system)</span>
+            <span>March - 2022</span>
+          </div>
+          <p class="text-muted small mb-1"><strong>Technologies Used:</strong> HTML, CSS, PHP, MySQL</p>
+          <p class="text-secondary small mb-0">
+            Developed a full-stack Cafe Management System that enables customers to browse the menu, place food orders online, and have orders delivered to their specified location. The system automatically generates a unique order ID for each order and displays a successful order confirmation message after the order is placed.
+          </p>
+        </div>
+      </div>
+
+      <!-- Languages & Personal Details -->
+      <div class="row mb-3">
+        <div class="col-md-6 mb-3 mb-md-0">
+          <h5 class="fw-bold text-success border-bottom pb-2">Languages</h5>
+          <p class="text-secondary small mb-0">English, Gujarati, Hindi</p>
+        </div>
+        <div class="col-md-6">
+          <h5 class="fw-bold text-success border-bottom pb-2">Personal Details</h5>
+          <p class="text-secondary small mb-1"><strong>Date of Birth:</strong> 17/01/2005</p>
+          <p class="text-secondary small mb-1"><strong>Nationality:</strong> Indian</p>
+          <p class="text-secondary small mb-0"><strong>Marital Status:</strong> Unmarried</p>
+        </div>
+      </div>
+
+      <!-- Hobbies -->
+      <div>
+        <h5 class="fw-bold text-success border-bottom pb-2">Hobbies</h5>
+        <p class="text-secondary small mb-0">Playing Cricket</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ================= PROFILE MODAL ================= -->
+  <div class="modal fade" id="profileModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold text-success">Contact Information</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center py-4">
+          <img src="img/achal.png" alt="Achal Vijaykumar Raval" class="rounded-circle mb-3 shadow-sm" style="width: 100px; height: 100px; object-fit: cover;">
+          <h4 class="fw-bold text-dark mb-1">Achal Vijaykumar Raval</h4>
+          <p class="text-muted mb-2">Dumral Bazar Raval Vas, Nadiad</p>
+          <hr class="w-50 mx-auto">
+          <p class="mb-1"><strong>Phone:</strong> +91 9624727702</p>
+          <p class="mb-0"><strong>Email:</strong> acalraval2@gmail.com</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Local Bootstrap JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
